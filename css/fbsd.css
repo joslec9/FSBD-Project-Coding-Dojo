@@ -77,31 +77,49 @@ body {
     background: maroon;
 }
 
-#headerlogoleft {
-    position: relative;
-    border: 0px;
-    padding: 0px;
-    top: 0px;
-    float: left;
-    margin-left: 10px;
-}
-
 #header img {
     border: 0px;
     margin-left: 50px;
+    margin-bottom: 20px;
 }
 
 #header a:link {
     color: gold;
 }
 
-#headerlogoright {
+#headerright {
     position: relative;
     border: 0px;
     padding-left: 0px;
     float: right;
 }
 
+#side_nav ul {
+    padding: 8px 4px 12px 4px;
+}
+
+#side_nav ul li {
+    border-bottom: 1px solid #eee;
+    margin: 0;
+    padding-left: 12px;
+    background-image: url(../images/nav_arrow.png);
+    background-repeat: no-repeat;
+    background-position: 12px 0.65em;
+}
+
+#side_nav ul li a {
+    display: block;
+    color: #990000;
+    text-decoration: underline;
+    padding: 3px 5px 3px 12px;
+    margin: 0;
+}
+
+#main_content {
+    margin-left: 225px;
+    padding-top: 15px;
+    padding: 15px;
+}
 strong,
 b {
     font-weight: bold;
@@ -117,7 +135,7 @@ b {
     text-align: center;
 }
 
-.frontdonatecontent {
+.fronttopcontent {
     margin: 0;
     padding: 0;
     margin-top: 10px;
@@ -179,27 +197,27 @@ a:link {
     padding-bottom: 2px;
 }
 
-#content {
+#content_wrap {
     clear: both;
     display: block;
 }
 
-#sidewrap {
+#side_wrap {
     float: left;
     width: 200px;
     margin-top: 15px;
     margin-right: -170px;
 }
 
-#sidenav {
+#side_nav {
     width: 200px;
     background-color: #eee;
     border: 1px solid #D4D4D4;
 }
 
-#sidenav,
-#sidenav ul,
-#sidenav ul ul {
+#side_nav,
+#side_nav ul,
+#side_nav ul ul {
     margin: 0;
     padding: 0;
     list-style: none;
@@ -252,33 +270,6 @@ h4 {
     font-size: 100%;
     margin: 1.2em 0em 1.2em 0em;
     font-weight: bold;
-}
-
-#sidenav ul {
-    padding: 8px 4px 12px 4px;
-}
-
-#sidenav ul li {
-    border-bottom: 1px solid #eee;
-    margin: 0;
-    padding-left: 12px;
-    background-image: url(../images/nav_arrow.png);
-    background-repeat: no-repeat;
-    background-position: 12px 0.65em;
-}
-
-#sidenav ul li a {
-    display: block;
-    color: #990000;
-    text-decoration: underline;
-    padding: 3px 5px 3px 12px;
-    margin: 0;
-}
-
-#contentwrap {
-    margin-left: 225px;
-    padding-top: 15px;
-    padding: 15px;
 }
 
 p {
