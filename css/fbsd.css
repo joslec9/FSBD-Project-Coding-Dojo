@@ -96,16 +96,21 @@ body {
 
 #side_nav ul {
     padding: 8px 4px 12px 4px;
+    list-style-type: none;
 }
 
 #side_nav ul li {
     border-bottom: 1px solid #eee;
     margin: 0;
     padding-left: 12px;
-    background-image: url(../images/nav_arrow.png);
     background-repeat: no-repeat;
     background-position: 12px 0.65em;
 }
+
+#side_nav ul li :before {
+        margin-right: 10px;
+        content: '>>'
+      }
 
 #side_nav ul li a {
     display: block;
@@ -118,7 +123,7 @@ body {
 #main_content {
     margin-left: 225px;
     padding-top: 15px;
-    padding: 15px;
+    padding-left: 55px;
 }
 strong,
 b {
@@ -210,7 +215,8 @@ a:link {
 }
 
 #side_nav {
-    width: 200px;
+    width: 260px;
+    height: 300px;
     background-color: #eee;
     border: 1px solid #D4D4D4;
 }
@@ -323,5 +329,4 @@ span#logo {
     color: white;
     font-size: 1.5em;
     font-style: italic;
-    margin-bottom: 50px;
 }
