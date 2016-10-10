@@ -12,7 +12,7 @@ body {
 
 #main_content {
 	margin-left: 225px;
-	padding: 15px 0px 0px 55px;
+	padding: 15px 0px 0px 25px;
 }
 
 #menu {
@@ -83,7 +83,7 @@ body {
 }
 
 #side_nav {
-	width: 260px;
+	width: 200px;
 	height: 300px;
 	background-color: #eee;
 	border: 1px solid #D4D4D4;
@@ -100,7 +100,7 @@ body {
 
 #side_nav ul {
 	padding: 8px 4px 12px 4px;
-	list-style-type: none;
+	list-style: none;
 }
 
 #side_nav ul li {
@@ -131,6 +131,7 @@ body {
 #content_wrap {
 	clear: both;
 	display: block;
+	padding-top: 10px;
 }
 
 #side_wrap {
