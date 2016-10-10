@@ -6,10 +6,6 @@ body {
 	background: #fff repeat-x;
 }
 
-#containerwrap {
-	text-align: center;
-}
-
 #main_content {
 	margin-left: 225px;
 	padding: 15px 0px 0px 25px;
@@ -50,14 +46,14 @@ body {
 	text-decoration: none;
 }
 
-#container {
+#main_container {
 	margin: 0em auto;
 	width: 1080px;
 	padding: 0px 0px 15px 0px;
 	text-align: left;
 }
 
-#header {
+#header_content {
 	position: relative;
 	height: 100px;
 	margin: 0;
@@ -66,12 +62,12 @@ body {
 	background: maroon;
 }
 
-#header img {
+#header_content img {
 	border: 0px;
 	margin: 0px 0px 20px 50px;
 }
 
-#header a:link {
+#header_content a:link {
 	color: gold;
 }
 
@@ -124,7 +120,7 @@ body {
 	margin: 0;
 }
 
-#headercontainer {
+#header_container {
 	padding-bottom: 2px;
 }
 
@@ -203,9 +199,6 @@ a:link {
 
 h1 {
 	color: #990000;
-}
-
-h1 {
 	font-size: 120%;
 	font-weight: bold;
 	margin: 0em 0em 1.2em 0em;
@@ -213,9 +206,6 @@ h1 {
 
 h2 {
 	color: #990000;
-}
-
-h2 {
 	font-size: 115%;
 	margin: 1.2em 0em 1.2em 0em;
 	font-weight: bold;
@@ -223,9 +213,6 @@ h2 {
 
 h3 {
 	color: #990000;
-}
-
-h3 {
 	font-size: 110%;
 	margin: 1.2em 0em 1.2em 0em;
 	font-weight: bold;
@@ -233,9 +220,6 @@ h3 {
 
 h4 {
 	color: #990000;
-}
-
-h4 {
 	font-size: 100%;
 	margin: 1.2em 0em 1.2em 0em;
 	font-weight: bold;
@@ -244,9 +228,6 @@ h4 {
 p {
 	line-height: 1.2em;
 	margin: 1.2em 0em 1.2em 0em;
-}
-
-p {
 	display: block;
 }
 
